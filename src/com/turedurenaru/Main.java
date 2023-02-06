@@ -1,4 +1,4 @@
-package com.turedurenaru;
+package src.com.turedurenaru;
 
 public class Main{
 
