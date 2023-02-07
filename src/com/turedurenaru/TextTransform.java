@@ -5,7 +5,7 @@ public class TextTransform{
     String[] aryStr = str.split("");
     StringBuilder sb = new StringBuilder();
     for(String s:aryStr){
-      sb.append(s + " ");
+      sb.append("<span style='color:red;'>" + s + "</span>");
     }
     return sb.toString();
   }
